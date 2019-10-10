@@ -69,7 +69,7 @@ class PostsController extends Controller
             $path = $request->file('image')->storeAs('public/images',$fileNameToStore);
 
         }else{
-            $fileNameToStore = 'noimage.jpg';
+            $fileNameToStore = 'noimage.png';
         }
 
 
@@ -142,7 +142,7 @@ class PostsController extends Controller
             $path = $request->file('image')->storeAs('public/images',$fileNameToStore);
 
         }else{
-
+            $fileNameToStore = 'noimage.png';
         }
 
         //update post

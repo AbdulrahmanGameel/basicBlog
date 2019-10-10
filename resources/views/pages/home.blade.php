@@ -14,8 +14,11 @@
                     </div>
                     @endif
 
-                    <a class="btn btn-outline-primary" href="posts/create">Create Post</a>
+                    <a class="btn btn-success center" href="posts/create">Create Post</a>
+                    <br>
+                    <br>
                     <h3>Your Blog Posts</h3>
+                    <br>
                     @if (count($posts) > 0)
                     <table class="table table-striped">
                         <tr>
@@ -29,7 +32,7 @@
                                 {{$post->title}}
                             </td>
                             <td>
-                                <a href="/posts/{{$post->id}}/edit" class="btn btn-default"> Edit</a>
+                                <a href="/posts/{{$post->id}}/edit" class="btn btn-warning center"> Edit</a>
                             </td>
                             <td>
                                 {!! Form::open(['action'=> ['PostsController@destroy',$post->id], 'method'=>'POST',

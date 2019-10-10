@@ -11,7 +11,7 @@ class PagesController extends Controller
 
     public function index()
     {
-        $header="Man's not hot";
+        $header="Basic Blog Laravel Study";
         return view('pages.index',compact('header'));
     }
     public function about()
