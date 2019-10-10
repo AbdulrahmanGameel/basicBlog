@@ -11,7 +11,7 @@
     </ul>
 @endif
 
-<div class="p-3 mb-2 bg-white text-dark">
+<div id="ToS">
     <pre style=" white-space: pre-wrap;">
         Terms and Conditions
         Welcome to Basic Blog!

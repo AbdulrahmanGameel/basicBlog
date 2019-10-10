@@ -1,3 +1,9 @@
 .row{
     color: black;
 }
+#ToS{
+    color: black;
+    background: white;
+    padding: 3;
+    border-bottom: 2;
+}
